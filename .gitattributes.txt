@@ -1,0 +1,18 @@
+# Automatically handle line endings for text files
+* text=auto
+
+# Enforce LF endings for specific file types
+*.sh text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.java text eol=lf
+
+# Enforce CRLF endings for Windows-specific files
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Prevent binary files from being altered
+*.png binary
+*.jpg binary
+*.pdf binary
